@@ -7,10 +7,28 @@
   </head>
   <body>
     <header>
-      <h1>Adam's Cat Albums</h1>
-      <a href="#happy">Happy</a>
-      <a href="#grumpy">Grumpy</a>
-      <a href="#sleepy">Sleepy</a>
+      <ul>
+        <li><a href="#happy">Happy cats</a></li>
+        <li><a href="#grumpy">Grumpy cats</a></li>
+        <li><a href="#sleepy">Sleepy cats</a></li>
+        <li>
+          <ul class="dropdown">
+            <li>Rate these cats!</li>
+            <li>
+              <input type="radio" name="happy" id="happy1" />
+              <label for="happy1">Adorable!</label>
+            </li>
+            <li>
+              <input type="radio" name="happy" id="happy2" />
+              <label for="happy2">Cute!</label>
+            </li>
+            <li>
+              <input type="radio" name="happy" id="happy3" />
+              <label for="happy3">Hairy!</label>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </header>
     <main>
       <section id="happy">
